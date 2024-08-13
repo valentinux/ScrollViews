@@ -9,12 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            
-            CardView(imageCard: "swift5", titleCard: "Curso de Swift 5", descriptionCard: "Aprende a programar desde 0", levelCard: "Niver: Fácil")
-            
+        ScrollView{
+            VStack {
+                
+                CardView(imageCard: "swift5", titleCard: "Curso de Swift 5", descriptionCard: "Aprende a programar desde 0", levelCard: "Niver: Fácil")
+                
+                CardView(imageCard: "ios10", titleCard: "Curso de iOS 10", descriptionCard: "Crea tus primeras apps con iOs 10", levelCard: "Niver: Fácil")
+                
+                CardView(imageCard: "ios11", titleCard: "Curso de iOS 12", descriptionCard: "Crea tus primeras apps con iOs 12", levelCard: "Niver: medio")
+
+                
+                
+            }
         }
-        .padding()
+        
+        
     }
     
 }
