@@ -10,24 +10,42 @@ import SwiftUI
 struct CardView: View {
     var body: some View {
         
+        CardViewBase(imageCard: "swift5", 
+                     titleCard: "Curso de Swift 5",
+                     descriptionCard: "Aprende el lenguaje de programación de Apple desde 0",
+                     levelCard: "Nivel: Fácil")
+    
+        
+    }
+}
+
+struct CardViewBase: View{
+    
+    var imageCard: String
+    var titleCard: String
+    var descriptionCard: String
+    var levelCard: String
+    
+    var body: some View{
+        
         VStack {
-            Image("swift5")
+            Image(imageCard)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
             HStack {
                 VStack(alignment: .leading){
                     
-                    Text("Curso de swift 5")
+                    Text(titleCard)
                         .font(.largeTitle)
                         .foregroundColor(.secondary)
                     
-                    Text("Aprende el lenguaje de programación de Apple desde 0")
+                    Text(descriptionCard)
                         .font(.title2)
                         .foregroundColor(.primary)
                         .lineLimit(3)
                     
-                    Text("Nivel: Fácil")
+                    Text(levelCard)
                         .font(.headline)
                         .foregroundColor(.secondary)
                 }
@@ -41,7 +59,6 @@ struct CardView: View {
             RoundedRectangle(cornerRadius: 16)
                 .stroke(Color(.sRGB, red:120/255, green: 40/255, blue:140/255, opacity: 0.6) ,lineWidth: 4))
         .padding([.top, .horizontal])
-        
     }
 }
     
