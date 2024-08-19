@@ -34,36 +34,6 @@
             endingLineNumber = "12"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "59A96D7C-1D85-4CE8-945A-EA700411D966 - c434ecc8f9d13f5b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScrollViews_lessons.ContentView.body.getter : some"
-                  moduleName = "ScrollViews-lessons"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Parte1/LearnSwiftUI/ScrollViews-lessons/ScrollViews-lessons/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12">
-               </Location>
-               <Location
-                  uuid = "59A96D7C-1D85-4CE8-945A-EA700411D966 - 1b324688f140d7c3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(ScrollViews_lessons.CardView, ScrollViews_lessons.CardView, ScrollViews_lessons.CardView)&gt;&gt; in ScrollViews_lessons.ContentView.body.getter : some"
-                  moduleName = "ScrollViews-lessons"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Parte1/LearnSwiftUI/ScrollViews-lessons/ScrollViews-lessons/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
