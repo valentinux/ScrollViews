@@ -60,7 +60,7 @@ struct ContentView: View {
                 Label(
                     title: {Text("Eliminar")},
                     icon: { Image(systemName: "trash") }
-)
+                )
                 .foregroundStyle(.white)
                 .padding()
                 .background(.red)
