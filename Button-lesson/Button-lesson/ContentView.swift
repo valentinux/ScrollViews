@@ -21,7 +21,7 @@ struct ContentView: View {
                     .cornerRadius(40)
                     .foregroundStyle(Color.white)
                     .padding(10)
-                    // .border(Color.green, width: 6)
+                // .border(Color.green, width: 6)
                     .overlay{
                         RoundedRectangle(cornerRadius: 40)
                             .stroke(.green, lineWidth: 6)
@@ -43,12 +43,13 @@ struct ContentView: View {
             // Botón con imagen
             Button{
                 print("Hemos pulsado el botón con imagen")
+                
             } label: {
                 HStack {
                     Image(systemName: "trash")
                         .font(.largeTitle)
                         .foregroundStyle(.white)
-                        
+                    
                     Text("Eliminar")
                         .font(.largeTitle)
                         .foregroundStyle(.white)
@@ -61,12 +62,15 @@ struct ContentView: View {
                     title: {Text("Eliminar")},
                     icon: { Image(systemName: "trash") }
                 )
-                .foregroundStyle(.white)
                 .padding()
-                .background(.red)
-
+                
+                .foregroundStyle(.white)
+                .background(.linearGradient(Gradient(colors: [.red, .blue]), startPoint: .leading, endPoint: .trailing))
+                .shadow(color: .gray, radius: 10)
                 
             }
+            
+            
         }
     }
 }
