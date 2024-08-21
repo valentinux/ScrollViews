@@ -40,11 +40,11 @@ struct ContentView: View {
                 Text("\(counter)")
                     .font(.system(size: 60, weight: .bold, design: .rounded))
                     .foregroundStyle(Color.black)
-                )
-            
+            )
+        
         
     }
-    
+        
     }
 }
 
